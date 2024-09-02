@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+    
+#navigation-bar{
+    background-color: #EEF5FF;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+.menu{
+    padding: 5px;
+}
+.menu button{
+    height: 40px;
+    width: 50px;
+    margin: 0;
+    border: none;
+    background-color: #B4D4FF;
+}
+#container1{
+    background-image: url("C:/Users/USER/Downloads/Follow me_ ♡︎Lima♡︎.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.small, .withcontent{
+    position: absolute;
+    z-index: 1;
+}
+.small{
+    height: 30%;
+    width: 50%;
+    background-image: linear-gradient(to right, #B4D4FF, #86B6F6) ;
+    border-radius: 10px;
+    top: 25%;
+}
+.withcontent{
+    height: 30%;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.comname, .copy{
+    display: inline-block;
+    max-width: 480px ;
+    font-size: 100%;
+    padding: 10px 10px 5px;
+}
+
+.pink{
+    display: inline-block;
+    font-size: 35px;
+    padding: 20px;
+}
