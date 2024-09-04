@@ -61,16 +61,6 @@
     border-radius: 10px;
     text-align: center;
 }
-
-.comname, .copy{
-    display: inline-block;
-    max-width: 480px ;
-    font-size: 100%;
-    padding: 10px 10px 5px;
-}
-
-.pink{
-    display: inline-block;
-    font-size: 35px;
-    padding: 20px;
+.text h4{
+    padding-top: 10px;
 }
